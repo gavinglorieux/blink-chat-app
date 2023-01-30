@@ -1,0 +1,58 @@
+.chat-view__messages {
+  overflow: scroll;
+  height: 100%;
+  padding: 1rem;
+}
+
+.message {
+  background: #d3d3d3;
+  width: fit-content;
+  margin: 0.5rem 0;
+  border-radius: 1.15rem;
+  padding: 0.5rem 0.875rem;
+}
+
+.message--selected {
+  background: #1982fc;
+  color: white;
+}
+
+.message__date {
+  font-size: 0.75rem;
+}
+
+.message__text {
+  font-size: 1rem;
+}
+
+.chat-view__form {
+  display: flex;
+  width: inherit;
+  border-top: 0.25rem solid black;
+  height: 6rem;
+  align-items: center;
+}
+
+form {
+  width: inherit;
+  padding: 1rem;
+}
+
+form input {
+  width: 40rem;
+  margin: 0 1rem;
+  border: 0.1rem black solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+}
+
+form button {
+  border: none;
+  text-align: center;
+  padding: 1rem 2rem;
+  display: inline-block;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+}
